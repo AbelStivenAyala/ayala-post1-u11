@@ -88,7 +88,7 @@ reportes
 
 Evidencia: ArquitecturaPaquetesTest en rojo
 
-![alt text](image-5.png)
+![alt text](image-6.png)
 
 6. Resolución: inversión de dependencias
 
@@ -108,7 +108,7 @@ ReporteBajoStockService ya no mantiene una referencia a InventarioService: nunca
 
 Evidencia: ArquitecturaPaquetesTest en verde
 
-![alt text](image-6.png)>
+![alt text](image-8.png)
 
 grep -rn "import .*reportes" src/main/java/com/universidad/refactoringu11/inventario → sin resultados (el paquete inventario no importa reportes).
 
